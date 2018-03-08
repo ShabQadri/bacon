@@ -80,6 +80,7 @@ ro.com.google.clientidbase.yt=android-oneplus
 # Radio
 ro.telephony.call_ring.multiple=0
 ro.telephony.default_network=9
+persist.radio.add_power_save=1
 
 ro.use_data_netmgrd=true
 
