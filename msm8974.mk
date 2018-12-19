@@ -261,6 +261,14 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
 	librecovery_updater_oppo
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    qti-telephony-common
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
     
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/msm8974-common/msm8974-common-vendor.mk)
