@@ -26,6 +26,7 @@ TARGET_NO_RADIOIMAGE := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8974
+BOARD_VENDOR := oneplus
 
 # Architecture
 TARGET_ARCH := arm

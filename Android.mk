@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR),oppo)
+ifeq ($(BOARD_VENDOR),oneplus)
 ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
 ifneq ($(filter bacon find7 n3,$(TARGET_DEVICE)),)
 
