@@ -101,6 +101,9 @@ on boot
     # Wifi firmware reload path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+on post-fs
+    start vendor.qseecomd
+
 on post-fs-data
     # Create OPPO NV item directory
     mkdir /data/opponvitems 0771 radio radio
@@ -228,6 +231,7 @@ service vendor.qseecomd /system/vendor/bin/qseecomd
     class core
     user root
     group root
+    disabled
 
 service charger /system/bin/charger
     class charger
