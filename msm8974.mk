@@ -234,6 +234,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
 
+# TimeKeep
+PRODUCT_PACKAGES += \
+    timekeep \
+    TimeKeep
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.bacon
