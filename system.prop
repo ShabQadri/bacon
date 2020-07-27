@@ -101,3 +101,6 @@ wifi.interface=wlan0
 persist.bt.enableAptXHD=true
 persist.service.btui.use_aptx=1
 persistent.bt.a2dp_offload_cap=sbc-aptx-aptXHD
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
