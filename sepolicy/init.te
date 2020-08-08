@@ -12,3 +12,5 @@ allow init hidl_base_hwservice:hwservice_manager { add };
 allow init system_file:file { mounton };
 allow init hal_power_hwservice:hwservice_manager add;
 binder_call(init, system_server)
+allow init sysfs_leds:file r_file_perms;
+allow init sysfs_leds:lnk_file r_file_perms;
