@@ -147,6 +147,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # LMKD stats logging
 TARGET_LMKD_STATS_LOG := true
 
+# Malloc
+MALLOC_SVELTE := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
 
