@@ -207,7 +207,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">83</integer>
+    <integer name="config_deviceHardwareKeys">72</integer>
 
     <!-- Indicate whether encryption causes significant performances loss.
          This MUST NOT be set to true on devices produced in 2016 or later -->
@@ -231,4 +231,11 @@
          instead. -->
     <!--suppress CheckTagEmptyBody -->
     <string translatable="false" name="config_networkCaptivePortalServerUrl">http://captiveportal.kuketz.de</string>
+
+    <!-- Button backlight control. Possible values are:
+            0 - Not supported
+            1 - Supported, but only on/off mode
+            2 - Supported with variable brightness control
+    -->
+    <integer name="config_deviceSupportsButtonBrightnessControl">2</integer>
 </resources>
